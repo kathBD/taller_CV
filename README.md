@@ -1,2 +1,2 @@
-# html_pure
-taller de Html5
+# html_css
+taller de Html5+css
