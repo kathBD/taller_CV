@@ -5,87 +5,99 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- font awesome cdn link  -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@100&family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,700&display=swap"
+    rel="stylesheet" />
+<link rel="stylesheet" href="style.css">
     <title>Experiencia laboral</title>
 </head>
 
 <body>
     <header>
-        <nav>
-            <h3>
-                <font color="#35869A" face="verdana,arial">
+        <header class="container-nav">
+            <nav class="nav">
+                <img src="./assets/logo.png" alt="logo" width="40">
+                <ul>
+                    <li> </li>
+                    <li><a href=" index.html">Información Personal</a> </li>
+                    <li><a href="experiencia.html">Experiencia Laboral</a> </li>
+                    <li><a href="./referencias.html">Referencias Personales</a> </li>
+                    <li><a href="./familiares.html">Referencias Familiares</a> </li>
+                    <li><a href="./estudios.html">Estudios realizados</a></li>
     
-                    <center>
-                        <img src="./assets/logo.png" alt="logo" width="20""> 
-             <a  href="./index.html" style="color:rgb(232,120,16);">Información Personal</a> |
-                        <a href="./referencias.html" style="color:rgb(232,120,16);">Referencias Personales</a> |
-                        <a href="./familiares.html" style="color:rgb(232,120,16);">Referencias Familiares</a> |
-                        <a href="./estudios.html" style="color:rgb(232,120,16);">Estudios realizados</a>
-                </font>
-            </h3>
-            <hr>
-        </nav>
+                </ul>
+                </div>
+            </nav>
+    
+        </header>
+    
     </header>
-    <center>
-        <font color="#35869A" face="verdana,arial">
-            <h2>Experiencia Laboral</h2>
-        </font>
-        <table width="800" height="100" border="2" align="center">
+    <main class="container">
+        <div class="profile">
+            <img class="zoom" src="./assets/me.JPG" alt="kath Bonilla" width="100px">
+            <h3>Katherine Bonilla</h3>
+            <p>Antropóloga</p>
+            <p>Desarrolladora full Stack</p>
+            <div class="rrss">
 
-            <tr align="center">
+                <a href="#" class="fab fa-telegram"></a>
+                <a href="#" class="fab fa-github"></a>
+                <a href="#" class="fab fa-linkedin"></a>
+            </div>
+            <div class="buttons">
+                <a href="./assets/KB Currículum.pdf" class="btn">Download cv</a>
 
-                <th bgcolor="#35869A"> Empresa </th>
-                <th bgcolor="#35869A"> Cargo </th>
+            </div>
+        </div>
 
-            </tr>
-            <tr>
-                <th height="160" bgcolor="#35869A"> Sofka- Automatizador de Pruebas </th>
-                <td colspan="6">
-                    <p> Proyectos de investigación de mercados sobre lanzamiento de productos</p>
+        <div class="experice">
+            <div class="description">
+            <h3 class="title">Experiencia Laboral</h3>
+            <div class="box">
+                <h2>Sofka</h2>
+                <h3> Automatizador de Pruebas</h3>
+                <h3>2022-</h3>
+                <p> Pruebas de software con herramientas como Selenium con Java, serenity o cucumber <br>
+                   Conocimientos en Jenkins, repositorio de versiones (GIT) 
+                   Bases de Postman y servicios SoapUI y REST. </p>
+            </div>
+            <div class="box">
+                <h2>Sofka</h2>
+                <h3>Freelancer-Community Manager</h3>
+                <h3>2019-2022</h3>
+                <p> Proyectos de investigación de mercados sobre lanzamiento de productos</p>
                     <p> Análisis cuantitativo y cualitativo de entrevistas y grupos focales </p>
                     <p> presentación de informes y realizacion de encuentas. </p>
-                </td>
-            </tr>
-            <tr>
-                <th height="160" bgcolor="#35869A"> Freelancer-Community Manager </th>
-                <td colspan="6">
-                    <p> pruebas de software con herramientas como Selenium con Java, serenity o cucumber</p>
-                    <p>  Conocimientos en Jenkins, repositorio de versiones (GIT) </p>
-                    <p>  Bases de Postman y servicios SoapUI y REST. </p>
-                </td>
-            </tr>
+            </div>
+            <div class="box">
+                <h2>Sofka</h2>
+                <h3> Asamblea Nacional -Directora de Investigacion y Publicaciones </h3>
+                <p> Responsable de proyectos de investigación y publicaciones orientadas al desarrollo y acompañamiento de la labor legislativa y su formación</p>
+                <p> Promoción y realización de eventos (foros, charlas) de índole académica y capacitación </p>
+                <p> Comunicación digital con la generación de contenido web y manejo de redes sociales. </p>
+            </div>
 
-            <tr>
-                <th height="160" bgcolor="#35869A"> Asamblea Nacional -Directora de Investigacion y Publicaciones </th>
-                <td colspan="6">
-                    <p> Responsable de proyectos de investigación y publicaciones orientadas al desarrollo y acompañamiento de la labor legislativa y su formación</p>
-                    <p> Promoción y realización de eventos (foros, charlas) de índole académica y capacitación </p>
-                    <p> Comunicación digital con la generación de contenido web y manejo de redes sociales. </p>
-                </td>
-            </tr>
-            <tr>
-                <th height="160" bgcolor="#35869A"> Galup- Investigadora cualitativa </th>
-                <td colspan="6">
-                    <p> Proyectos de investigación de mercados sobre lanzamiento de productos</p>
+            <div class="box">
+                <h2>Galup- Investigadora cualitativa</h2>
+                <p> Proyectos de investigación de mercados sobre lanzamiento de productos</p>
                     <p> Análisis cuantitativo y cualitativo de entrevistas y grupos focales </p>
                     <p> presentación de informes y realizacion de encuentas. </p>
-                </td>
-            </tr>
-            
+            </div>
+        </div>
+   
+       
+    </main>
+        <footer> 
+     
+            <div class="social-links">
+              <i class="fab fa-linkedin fa-3x" href="#"></i>
+              <i class="fab fa-github fa-3x" href="#"></i>
            
-
-
-
-        </table>
-        <hr>
-
-        <footer>
-            <center>
-                <font color="#35869A" face="arial">
-                    <span>Copyright © 2002, All Right Reserved Katherine Bonilla</span>
-                </font>
-            </center>
-            
-        </footer>
+            </div>    
+              <p>Copyright &copy &#8226; 2022 &#8226;  <span> All Right Reserved Katherine Bonilla</span></p> 
+            </footer>
 
 </body>
 

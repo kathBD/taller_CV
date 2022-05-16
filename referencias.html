@@ -5,6 +5,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- font awesome cdn link  -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@100&family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,700&display=swap"
+    rel="stylesheet" />
+<link rel="stylesheet" href="style.css">
     <title>Referencias Personales</title>
 </head>
 
@@ -12,64 +18,83 @@
 
     <header>
         <nav>
-            <h3>
-                <font color="#35869A" face="verdana,arial">
-
-                    <center>
-                        <img src="./assets/logo.png" alt="logo" width="20""> 
-                        <a  href=" index.html" style="color:rgb(232,120,16);">Información Personal</a> |
-                    <a href="experiencia.html" style="color:rgb(232,120,16);">Experiencia Laboral</a> |
-                    <a href="./referencias.html" style="color:rgb(232,120,16);">Referencias Personales</a> |
-                    <a href="./familiares.html" style="color:rgb(232,120,16);">Referencias Familiares</a> |
-                    <a href="./estudios.html" style="color:rgb(232,120,16);">Estudios realizados</a>
-            </h3>
-            <hr>
+            <header class="container-nav">
+                <nav class="nav">
+                    <img src="./assets/logo.png" alt="logo" width="40">
+                    <ul>
+                        <li> </li>
+                        <li><a href=" index.html">Información Personal</a> </li>
+                        <li><a href="experiencia.html">Experiencia Laboral</a> </li>
+                        <li><a href="./referencias.html">Referencias Personales</a> </li>
+                        <li><a href="./familiares.html">Referencias Familiares</a> </li>
+                        <li><a href="./estudios.html">Estudios realizados</a></li>
+        
+                    </ul>
+                    </div>
+                </nav>
+        
+            </header>
+        
         </nav>
     </header>
-    <center>
-        <font color="#35869A" face="verdana,arial">
-            <h2>Referencias Personales</h2>
-        </font>
-    </center>
-    <table width="800" height="100" border="2" align="center">
 
-        <th >Ing. Glenda López</th>
-        <td>
-            <p>Tech Lead - Java</p>
-            <p>SII COlombia</p>
-            <p>email: gler@gmail.com</p>
-            <p>telefóno:4105879699</p>
-        </td>
-        <tr>
-            <th ><strong>Ing. Leiris García </strong></th>
-            <td>
-                <p>Developer II- Cobol Java</p>
+    <main class="container">
+        <div class="profile">
+            <img class="zoom" src="./assets/me.JPG" alt="kath Bonilla" width="100px">
+            <h3>Katherine Bonilla</h3>
+            <p>Antropóloga</p>
+            <p>Desarrolladora full Stack</p>
+            <div class="rrss">
+
+                <a href="#" class="fab fa-telegram"></a>
+                <a href="#" class="fab fa-github"></a>
+                <a href="#" class="fab fa-linkedin"></a>
+            </div>
+            <div class="buttons">
+                <a href="./assets/KB Currículum.pdf" class="btn">Download cv</a>
+
+            </div>
+        </div>
+
+        <div class="  references">
+            <h3 class="title">Referencias Familiares</h3>
+            <div class="box">
+                <h2> Ing. Glenda López</h2>
+                <h3>Tech Lead - Java-Cobol</h3>
+                <p>SII COlombia</p>
+                <p>email: gler@gmail.com</p>
+                <p>telefóno:4105879699</p>
+            </div>
+
+            <div class="box">
+                <h2> Leiris García</h2>
+                <h3>Developer II</h3>
                 <p>Novatec</p>
                 <p>email: gleiru@gmail.com</p>
                 <p>telefóno: 3257744999</p>
-            </td>
-        </tr>
-        <tr>
-            <th ><strong> Lennin Suárez </strong></th>
-            <td>
-                <p>Developer Senior - Cobol </p>
+            </div>
+
+            <div class="box">
+                <h2> Lennin Suárez</h2>
+                <h3>Developer Senior</h3>
                 <p>BBVA</p>
                 <p>email: Suares_13@gmail.com</p>
                 <p>telefóno: 31578141669</p>
-            </td>
-        </tr>
+            </div>
 
-    </table>
-    <hr>
 
-    <footer>
-        <center>
-            <font color="#35869A" face="arial">
-                <span>Copyright © 2002, All Right Reserved Katherine Bonilla</span>
-            </font>
-        </center>
-        
-    </footer>
+    </main>
+    
+   
+    <footer> 
+     
+        <div class="social-links">
+          <i class="fab fa-linkedin fa-3x" href="#"></i>
+          <i class="fab fa-github fa-3x" href="#"></i>
+       
+        </div>    
+          <p>Copyright &copy &#8226; 2022 &#8226;  <span> All Right Reserved Katherine Bonilla</span></p> 
+        </footer>
 </body>
 
 </html>

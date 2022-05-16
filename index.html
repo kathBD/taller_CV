@@ -5,100 +5,146 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@100&family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,700&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
     <title>Hoja de Vida</title>
 
 </head>
 
-<body bgcolor="#F5F5F5">
-    <header>
-        <center>
-            <img src="./assets/me.JPG" alt="kath Bonilla" width="100px">
-            <font color="#35869A ">
-                <h1>Katherine Bonilla</h1>
-                <h4>Antropóloga - Desarrolladora Web</h4>
+<body>
+    <header class="container-nav">
+        <nav class="nav">
+            <img src="./assets/logo.png" alt="logo" width="40">
+            <ul>
+                <li> </li>
+                <li><a href=" index.html">Información Personal</a> </li>
+                <li><a href="experiencia.html">Experiencia Laboral</a> </li>
+                <li><a href="./referencias.html">Referencias Personales</a> </li>
+                <li><a href="./familiares.html">Referencias Familiares</a> </li>
+                <li><a href="./estudios.html">Estudios realizados</a></li>
 
-            </font>
-        </center>
+            </ul>
+            </div>
+        </nav>
+
     </header>
 
-    <nav>
-        <h3>
-            <font color="#35869A" face="verdana,arial">
+    <main class="container">
+        <div class="profile">
+            <img class="zoom" src="./assets/me.JPG" alt="kath Bonilla" width="100px">
+            <h3>Katherine Bonilla</h3>
+            <p>Antropóloga</p>
+            <p>Desarrolladora full Stack</p>
+            <div class="rrss">
 
-                <center>
-                    <img src="./assets/logo.png" alt="logo" width="20""> 
-                    <a  href=" index.html" style="color:rgb(232,120,16);">Información Personal</a> |
-                    <a href="experiencia.html" style="color:rgb(232,120,16);">Experiencia Laboral</a> |
-                    <a href="./referencias.html" style="color:rgb(232,120,16);">Referencias Personales</a> |
-                    <a href="./familiares.html" style="color:rgb(232,120,16);">Referencias Familiares</a> |
-                    <a href="./estudios.html" style="color:rgb(232,120,16);">Estudios realizados</a>
-            </font>
-        </h3>
-        <hr>
-    </nav>
-    <main>
-        <article align="center">
-            <section>
+                <a href="#" class="fab fa-telegram"></a>
+                <a href="#" class="fab fa-github"></a>
+                <a href="#" class="fab fa-linkedin"></a>
+            </div>
+            <div class="buttons">
+                <a href="./assets/KB Currículum.pdf" class="btn">Download cv</a>
 
-                <center>
-                    <font color="#35869A" face="arial">
+            </div>
+        </div>
 
-                        <h2><b>Sobre Mí</b></h2>
+        <div class="about">
+            <div class="description">
 
-                        <p>Antropóloga enfocada a la cultura digital y Thick data, por lo cual he desarrollado
-                            habilidades técnicas en la programación.<br> Mis mantras profesionales "Lo que no, se
-                            mide poco o nada puede mejorarse; lo que, no se comunica, no existe"</p>
-                        <hr>
-                        <h2><b>Skills</h2>
-                        <p> Dentro de las habilidades que he desarrollado, considero la comunicación
-                            asertiva en equipos de trabajo es imprescindible, <br>con empatía y mente abierta como
-                            herramientas para resolución de conflictos. Enfrentarse al cambio y adaptarse a él, es
-                            uno de
-                            los mayores <br> retos dentro de la programación Frontend como Backend, así como la
-                            creatividad
-                            para proponer enfoques sobre soluciones disruptiva.
-                        </p>
-                    </font>
-                </center>
-            </section>
-        </article>
-    </main>
+                <h3 class="title">Sobre Mí</h3>
 
-    <div>
-        <center>
-            <font color="#35869A">
+                <p>Antropóloga enfocada a la cultura digital y Thick data, por lo cual he desarrollado
+                    habilidades técnicas en la programación. Mis mantras profesionales "Lo que no, se
+                    mide poco o nada puede mejorarse; lo que, no se comunica, no existe"</p>
 
 
-                <table width="600" height="60">
-                    <tr>
-                        <center>
-                            <td> <img src="./assets/HTML5_Logo_256.png" alt="html" width="78"> </td>
-                            <td> <img src="./assets/css3.png" alt="" width="60"> </td>
-                            <td> <img src="./assets/htlm.svg.png" alt="" width="60"> </td>
-                            <td> <img src="./assets/bootstrap.png" alt="" width="60"></td>
-                            <td> <img src="./assets/mysq.png" alt="" width="50"></td>
-                            <td> <img src="./assets/nodejs.png" alt="" width="80"> </td>
-                        </center>
-                    </tr>
-                    <tr>
 
-                </table>
+                <h2 class="title">Skills</h2>
+                <p> Dentro de las habilidades que he desarrollado, considero la comunicación
+                    asertiva en equipos de trabajo es imprescindible, con empatía y mente abierta como
+                    herramientas para resolución de conflictos. Enfrentarse al cambio y adaptarse a él, es
+                    uno de los mayores  retos dentro de la programación Frontend como Backend, así como la
+                    creatividad para proponer enfoques sobre soluciones disruptiva.
+                </p>
+
+            </div>
+
+            <div class="box-skill">
+             
+                <div class="box">
+                    <img src="./assets/HTML5_Logo_256.png" alt="html" width="60">
+                </div>
+                <div class="box">
+                    <img src="./assets/css3.png" alt="" width="40">
+                </div>
+                <div class="box">
+                    <img src="./assets/htlm.svg.png" alt="" width="40">
+                </div>
+                <div class="box">
+                    <img src="./assets/nodejs.png" alt="" width="50">
+                </div>
+                <div class="box">
+                    <img src="./assets/angular-svgrepo-com.svg" alt="" width="50">
+                </div>
+                <div class="box">
+                    <img src="./assets/postman-icon-svgrepo-com.svg" alt="" width="50">
+                </div>
+                <div class="box">
+                    <img src="./assets/react-svgrepo-com.svg" alt="" width="50">
+                </div>
+                <div class="box">
+                    <img src="./assets/bootstrap.png" alt="" width="50">
+                </div>
+                <div class="box">
+                    <img src="./assets/mysq.png" alt="" width="50">
+                </div>
               
-                <a href="./assets/KB Currículum.pdf" download="hvkb" style="color:rgb(66, 168, 192);"><img
-                        src="./assets/pdf-icon.png" alt="pdf" width="20"> Resumen PDF</a>
-            </font>
-        </center>
-    </div>
-    <hr>
+                
 
-<footer>
-    <center>
-        <font color="#35869A" face="arial">
-            <span>Copyright © 2002, All Right Reserved Katherine Bonilla</span>
-        </font>
-    </center>
+            </div>
+            <div class="skills-tech">
+           
+              
     
-</footer>
+                   <p>HTML</p>
+                   <div class="skills-bar">
+                     <div class="skills html">90%</div>
+                   </div>
+                   <p>CSS</p>
+                   <div class="skills-bar">
+                     <div class="skills css">80%</div>
+                   </div>
+                   <p>JavaScript</p>
+                   <div class="skills-bar">
+                     <div class="skills js">75%</div>
+                   </div>
+                   <p>ReactJs</p>
+                   <div class="skills-bar">
+                     <div class="skills react">70%</div>
+                   </div>
+                   <br>
+                   <hr>
+                </div>
+               </div> 
+             </div>
+            </div>
+
+        </div>
+
+    </main>
+    
+    <footer> 
+     
+      <div class="social-links">
+        <i class="fab fa-linkedin fa-3x" href="#"></i>
+        <i class="fab fa-github fa-3x" href="#"></i>
+     
+      </div>    
+        <p>Copyright &copy &#8226; 2022 &#8226;  <span> All Right Reserved Katherine Bonilla</span></p> 
+      </footer>
 
 </body>
 

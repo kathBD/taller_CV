@@ -5,87 +5,105 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- font awesome cdn link  -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@100&family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,700&display=swap"
+    rel="stylesheet" />
+<link rel="stylesheet" href="style.css">
     <title>Estudios</title>
 </head>
 
 <body>
     <header>
-        <nav>
-            <h3>
-                <font color="#35869A" face="verdana,arial">
-
-                    <center>
-                        <img src="./assets/logo.png" alt="logo" width="20""> 
-                        <a  href=" ./index.html" style="color:rgb(232,120,16);">Información Personal</a> |
-                        <a href="./experiencia.html" style="color:rgb(232,120,16);">Experiencia laboral</a> |
-                        <a href="./referencias.html" style="color:rgb(232,120,16);">Referencias Personales</a> |
-                        <a href="./familiares.html" style="color:rgb(232,120,16);">Referencias Familiares</a> |
-
-                </font>
-            </h3>
-            <hr>
-        </nav>
+        <header class="container-nav">
+            <nav class="nav">
+                <img src="./assets/logo.png" alt="logo" width="40">
+                <ul>
+                    <li> </li>
+                    <li><a href=" index.html">Información Personal</a> </li>
+                    <li><a href="experiencia.html">Experiencia Laboral</a> </li>
+                    <li><a href="./referencias.html">Referencias Personales</a> </li>
+                    <li><a href="./familiares.html">Referencias Familiares</a> </li>
+                    <li><a href="./estudios.html">Estudios realizados</a></li>
+    
+                </ul>
+                </div>
+            </nav>
+    
+        </header>
+    
     </header>
-    <center>
-        <font color="#35869A" face="verdana,arial">
-            <h2>Estudios Realizados</h2>
-        </font>
-        <table width="800" height="100" border="2" align="center">
+    <main class="container">
+        <div class="profile">
+            <img class="zoom" src="./assets/me.JPG" alt="kath Bonilla" width="100px">
+            <h3>Katherine Bonilla</h3>
+            <p>Antropóloga</p>
+            <p>Desarrolladora full Stack</p>
+            <div class="rrss">
 
-            <tr align="center">
+                <a href="#" class="fab fa-telegram"></a>
+                <a href="#" class="fab fa-github"></a>
+                <a href="#" class="fab fa-linkedin"></a>
+            </div>
+            <div class="buttons">
+                <a href="./assets/KB Currículum.pdf" class="btn">Download cv</a>
 
-                <th bgcolor="#35869A"> Centro de Estudios </th>
-                <th bgcolor="#35869A"> Descripción </th>
-              
+            </div>
+        </div>
 
-            </tr>
-            <tr>
-                <th height="160" bgcolor="#35869A"> Developer Full Stack <br> Simplon.co Grand Quest (Programáte)</th>
-                <td colspan="6">
-                    <p> La ruta de aprendizaje son diferentes lenguajes de programación: JavaScript, Python, tecnología web Frontend HTML, CSS y Backend NodeJS, Django. Desarrollo de la metodología Scrum, Sistemas de Control de Versiones, que permiten un aprendizaje Full Stack un perfil híbrido entre el desarrollador Front End y Back End.</p>
-                    <th height="160" bgcolor="#35869A">  Certificado Developer Full Stack</th>
-                </td>
-            </tr>
+        <div class="education">
+            <div class="description">
 
-            <tr>
-                <th height="160" bgcolor="#35869A"> Diplomado en marketing </th>
-                <td colspan="6">
-                    <p> Plan de Marketing Digital, Psicología del consumidor digital, Planificación de Marketing Digital
-                        Fundamentos de Sitios Web, UX – Experiencia del Usuario, Arquitectura Persuasiva, Diseño Responsivo: Web móvil, Redacción para la Web 2.0, RRSS, Analítica Web, SEO, Email Marketing..</p>
-                        <th height="160" bgcolor="#35869A">Certificado Gestión de Marketing Digital</th>
-                </td>
-            </tr>
+            <h3 class="title">Estudios Realizados</h3>
+       <div class="box-container">
+            <div class="box">
+                <h2>Simplon.co Grand Quest (Programáte)</h2>
+                <h3>Developer Full Stack</h3>
+                <h3>2021-2021</h3>
+                <p>La ruta de aprendizaje son diferentes lenguajes de programación: JavaScript, Python, tecnología web Frontend HTML, CSS y Backend NodeJS, Django. Desarrollo de la metodología Scrum, Sistemas de Control de Versiones, que permiten un aprendizaje Full Stack un perfil híbrido entre el desarrollador Front End y Back End..</p>
+            </div>
 
-            <tr>
-                <th height="160" bgcolor="#35869A"> Diplomado en Gerencia de Proyectos </th>
-                <td colspan="6">
-                    <p> Gestión de Proyectos PMI</p>
-                    <p>Gestión del Alcance del Tiempo y del Costo en los Proyectos. Riesgos en Proyectos. Comunicación del Proyecto equipo.</p>
-                    <th height="160" bgcolor="#35869A">certificado en Gestión de Proeyctos PMI</th>
-                  
-                </td>
-            </tr>
-            <tr>
-                <th height="160" bgcolor="#35869A"> UCV </th>
-                <td colspan="6">
-                    <p> Antropología</p>
-                    <p>Estudios Biologico y sociocultural</p>
-                    <th height="160" bgcolor="#35869A">Título Universitarío Antropólogo</th>
-                   
-                </td>
-            </tr>
+            <div class="box">
+                <h2>Diplomado en marketing</h2>
+                <h3>Certificado Gestión de Marketing Digital</h3>
+                <h3>2016</h3>
+                <p>Plan de Marketing Digital, Psicología del consumidor digital, Planificación de Marketing Digital
+                    Fundamentos de Sitios Web, UX – Experiencia del Usuario, Arquitectura Persuasiva, Diseño Responsivo: Web móvil, Redacción para la Web 2.0, RRSS, Analítica Web, SEO, Email Marketing..</p>
+            </div>
 
-        </table>
-        <hr>
+            <div class="box">
+                <h2>Diplomado en Gerencia de Proyectos</h2>
+                <h3>Gestión de Proyectos PMI</h3>
+                <h3>2015</h3>
+                <p>Gestión del Alcance del Tiempo y del Costo en los Proyectos. Riesgos en Proyectos. Comunicación del Proyecto equipo..</p>
+            </div>
 
-        <footer>
-            <center>
-                <font color="#35869A" face="arial">
-                    <span>Copyright © 2002, All Right Reserved Katherine Bonilla</span>
-                </font>
-            </center>
-            
-        </footer>
+            <div class="box">
+                <h2>Antropología</h2>
+                <h3>2006</h3>
+                <h3>Título Universitarío Antropólogo</h3>
+                <p>Estudios Biologico y sociocultural en tiempo pasado o presente.</p>
+            </div>
+
+        </div>
+
+
+         
+    </main>
+
+   
+       
+    </div>
+        <footer> 
+     
+            <div class="social-links">
+              <i class="fab fa-linkedin fa-3x" href="#"></i>
+              <i class="fab fa-github fa-3x" href="#"></i>
+           
+            </div>    
+              <p>Copyright &copy &#8226; 2022 &#8226;  <span> All Right Reserved Katherine Bonilla</span></p> 
+            </footer>
 
 
 </body>

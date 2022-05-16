@@ -4,68 +4,96 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- font awesome cdn link  -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@100&family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,700&display=swap"
+    rel="stylesheet" />
+<link rel="stylesheet" href="style.css">
     <title>Referencias Familiares</title>
 </head>
 <body>
     <header>
         <nav>
-            <h3>
-                <font color="#35869A" face="verdana,arial">
-    
-                    <center>
-                        <img src="./assets/logo.png" alt="logo" width="20""> 
-                        <a  href="./index.html" style="color:rgb(232,120,16);">Información Personal</a> |
-                        <a href="experiencia.html" style="color:rgb(232,120,16);">Experiencia Laboral</a> |
-                        <a href="./referencias.html" style="color:rgb(232,120,16);">Referencias Personales</a> |
-                        <a href="./estudios.html" style="color:rgb(232,120,16);">Estudios realizados</a>
-                </font>
-            </h3>
-            <hr>
+            <header class="container-nav">
+                <nav class="nav">
+                    <img src="./assets/logo.png" alt="logo" width="40">
+                    <ul>
+                        <li> </li>
+                        <li><a href=" index.html">Información Personal</a> </li>
+                        <li><a href="experiencia.html">Experiencia Laboral</a> </li>
+                        <li><a href="./referencias.html">Referencias Personales</a> </li>
+                        <li><a href="./familiares.html">Referencias Familiares</a> </li>
+                        <li><a href="./estudios.html">Estudios realizados</a></li>
+        
+                    </ul>
+                    </div>
+                </nav>
+        
+            </header>
+        
         </nav>
     </header>
-    <center>
-        <font color="#35869A" face="verdana,arial">
-            <h2>Referencias Personales</h2>
-        </font>
-       </center>
-       <table width="800" height="100" border="2" align="center">
-      
-        <th bgcolor="#35869A"><strong>Gilia Carrillo</strong></th>
-        <td>
-        <p>Comerciante </p>
-        <p>email: giliakj@gmail.com</p>
-        <p>telefóno:547881199</p>
-    </td>
-    <tr>
-    <th bgcolor="#35869A"><strong>Esteban Duarte </strong></th>
-    <td>
-    <p>Abogado</p>
-    <p>Bufete Lope&carrillo</p>
-    <p>email: esteb54p@gmail.com</p>
-    <p>telefóno: 312744999</p>
-</td>
-</tr>
-<tr>
-    <th bgcolor="#35869A"><strong> Douglas Bonilla </strong></th>
-    <td>
-    <p>Jefe de Comunicaciones </p>
-    <p>Compensar</p>
-    <p>email: dunga@gmail.com</p>
-    <p>telefóno: 31025449997</p>
-</td>
-</tr>
+    <main class="container">
+        <div class="profile">
+            <img class="zoom" src="./assets/me.JPG" alt="kath Bonilla" width="100px">
+            <h3>Katherine Bonilla</h3>
+            <p>Antropóloga</p>
+            <p>Desarrolladora full Stack</p>
+            <div class="rrss">
+                <a href="#" class="fab fa-telegram"></a>
+                <a href="#" class="fab fa-github"></a>
+                <a href="#" class="fab fa-linkedin"></a>
+            </div>
+            <div class="buttons">
+                <a href="./assets/KB Currículum.pdf" class="btn">Download cv</a>
 
-    </table>
-    <hr>
+            </div>
+        </div>
+       <div class="family">
+        <h3 class="title">Referencias Familiares</h3>
+        <div class="box">
+            <h2> Gilia Carrillo</h2>
+            <h3>Comerciante</h3>
+            <p>email: giliakj@gmail.com</p>
+            <p>telefóno:547881199</p>
+        </div>
 
-    <footer>
-        <center>
-            <font color="#35869A" face="arial">
-                <span>Copyright © 2002, All Right Reserved Katherine Bonilla</span>
-            </font>
-        </center>
-        
-    </footer>
+        <div class="box">
+            <h2> Esteban Duarte</h2>
+            <h3>Abogado</h3>
+            <p>Bufete Lope&carrillo</p>
+            <p>email: esteb54p@gmail.com</p>
+            <p>telefóno: 312744999</p>
+        </div>
+        <div class="box">
+            <h2> Douglas Bonilla</h2>
+            <h3>Jefe de Comunicaciones call center</h3>
+            <p>Compensar</p>
+            <p>email: dunga@gmail.com</p>
+            <p>telefóno: 31025449997</p>
+        </div>
+
+    </div> 
+
+
+</div>
+
+</div>
+
+    </main>
+  
+
+
+    <footer> 
+     
+        <div class="social-links">
+          <i class="fab fa-linkedin fa-3x" href="#"></i>
+          <i class="fab fa-github fa-3x" href="#"></i>
+       
+        </div>    
+          <p>Copyright &copy &#8226; 2022 &#8226;  <span> All Right Reserved Katherine Bonilla</span></p> 
+        </footer>
     
 </body>
 </html>
