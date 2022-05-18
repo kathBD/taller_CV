@@ -18,17 +18,17 @@ const changeColor =()=>{
 }
 
 
-/*let elements = document.getElementsByClassName('acordeon');
+let elementsA = document.getElementsByClassName('acordeon');
 
-for (let i = 0; i < elements.length; i++) {
+for (let i = 0; i < elementsA.length; i++) {
 
-    elements[i].addEventListener("click", function() {
-        this.classList.toggle('active');
-        let caja = this.nextElementSibling();
-        if (caja.style.display == "block"){
-            caja.style.display = "none";
+    elementsA[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        let box = this.nextElementSibling;
+        if (box.style.display == "none"){
+            box.style.display = "block";
         }else{
-            caja.style.display == "block"
+            box.style.display ="none";
         }
-    })
-}*/
+    });
+}
