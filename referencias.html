@@ -14,7 +14,7 @@
     <title>Referencias Personales</title>
 </head>
 
-<body>
+<body  id="bgcolor" onload="changeColor()">
 
     <header>
         <nav>
@@ -57,32 +57,39 @@
         </div>
 
         <div class="  references">
-            <h3 class="title">Referencias Familiares</h3>
-            <div class="box">
+            <h3 class="title">Referencias Personales</h3>
+        <div class="box-container">
+            <button class="acordeon">
                 <h2> Ing. Glenda López</h2>
                 <h3>Tech Lead - Java-Cobol</h3>
+              </button>
+            <div class="box">
                 <p>SII COlombia</p>
                 <p>email: gler@gmail.com</p>
                 <p>telefóno:4105879699</p>
             </div>
-
-            <div class="box">
+            <button class="acordeon">
                 <h2> Leiris García</h2>
                 <h3>Developer II</h3>
+              </button>
+            <div class="box"> 
                 <p>Novatec</p>
                 <p>email: gleiru@gmail.com</p>
                 <p>telefóno: 3257744999</p>
             </div>
-
-            <div class="box">
+            <button class="acordeon">
                 <h2> Lennin Suárez</h2>
                 <h3>Developer Senior</h3>
+              </button>
+            <div class="box">
+               
                 <p>BBVA</p>
                 <p>email: Suares_13@gmail.com</p>
                 <p>telefóno: 31578141669</p>
             </div>
 
-
+        </div>
+        </div>
     </main>
     
    
@@ -95,6 +102,7 @@
         </div>    
           <p>Copyright &copy &#8226; 2022 &#8226;  <span> All Right Reserved Katherine Bonilla</span></p> 
         </footer>
+        <script src="./main.js"></script>
 </body>
 
 </html>

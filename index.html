@@ -17,7 +17,7 @@
 
 <body>
     <header class="container-nav">
-        <nav class="nav">
+        <nav class="nav" id="nav">
             <img src="./assets/logo.png" alt="logo" width="40">
             <ul>
                 <li> </li>
@@ -26,8 +26,15 @@
                 <li><a href="./referencias.html">Referencias Personales</a> </li>
                 <li><a href="./familiares.html">Referencias Familiares</a> </li>
                 <li><a href="./estudios.html">Estudios realizados</a></li>
-
             </ul>
+            <div class="btn_modo">
+                <i class="fa fa-fill-drip"></i>
+                <select name="color" id="bgcolor" onchange="colorChange()">
+                    <option value="">Color</option>
+                    <option value="black">Negro</option>
+                    <option value="DarkViolet">Violeta</option>
+                    <option value="Orange">Orange</option>
+                </select>  
             </div>
         </nav>
 
@@ -66,86 +73,85 @@
                 <p> Dentro de las habilidades que he desarrollado, considero la comunicación
                     asertiva en equipos de trabajo es imprescindible, con empatía y mente abierta como
                     herramientas para resolución de conflictos. Enfrentarse al cambio y adaptarse a él, es
-                    uno de los mayores  retos dentro de la programación Frontend como Backend, así como la
+                    uno de los mayores retos dentro de la programación Frontend como Backend, así como la
                     creatividad para proponer enfoques sobre soluciones disruptiva.
                 </p>
 
             </div>
 
             <div class="box-skill">
-             
-                <div class="box">
+
+                <div class="box-tech">
                     <img src="./assets/HTML5_Logo_256.png" alt="html" width="60">
                 </div>
-                <div class="box">
+                <div class="box-tech">
                     <img src="./assets/css3.png" alt="" width="40">
                 </div>
-                <div class="box">
+                <div class="box-tech">
                     <img src="./assets/htlm.svg.png" alt="" width="40">
                 </div>
-                <div class="box">
+                <div class="box-tech">
                     <img src="./assets/nodejs.png" alt="" width="50">
                 </div>
-                <div class="box">
+                <div class="box-tech">
                     <img src="./assets/angular-svgrepo-com.svg" alt="" width="50">
                 </div>
-                <div class="box">
+                <div class="box-tech">
                     <img src="./assets/postman-icon-svgrepo-com.svg" alt="" width="50">
                 </div>
-                <div class="box">
+                <div class="box-tech">
                     <img src="./assets/react-svgrepo-com.svg" alt="" width="50">
                 </div>
-                <div class="box">
+                <div class="box-tech">
                     <img src="./assets/bootstrap.png" alt="" width="50">
                 </div>
-                <div class="box">
+                <div class="box-tech">
                     <img src="./assets/mysq.png" alt="" width="50">
                 </div>
-              
-                
+
+
 
             </div>
             <div class="skills-tech">
-           
-              
-    
-                   <p>HTML</p>
-                   <div class="skills-bar">
-                     <div class="skills html">90%</div>
-                   </div>
-                   <p>CSS</p>
-                   <div class="skills-bar">
-                     <div class="skills css">80%</div>
-                   </div>
-                   <p>JavaScript</p>
-                   <div class="skills-bar">
-                     <div class="skills js">75%</div>
-                   </div>
-                   <p>ReactJs</p>
-                   <div class="skills-bar">
-                     <div class="skills react">70%</div>
-                   </div>
-                   <br>
-                   <hr>
+
+
+                <p>HTML</p>
+                <div class="skills-bar">
+                    <div class="skills html">90%</div>
                 </div>
-               </div> 
-             </div>
+                <p>CSS</p>
+                <div class="skills-bar">
+                    <div class="skills css">80%</div>
+                </div>
+                <p>JavaScript</p>
+                <div class="skills-bar">
+                    <div class="skills js">75%</div>
+                </div>
+                <p>ReactJs</p>
+                <div class="skills-bar">
+                    <div class="skills react">70%</div>
+                </div>
+                <br>
+                <hr>
             </div>
+        </div>
+        </div>
+        </div>
 
         </div>
 
     </main>
-    
-    <footer> 
-     
-      <div class="social-links">
-        <i class="fab fa-linkedin fa-3x" href="#"></i>
-        <i class="fab fa-github fa-3x" href="#"></i>
-     
-      </div>    
-        <p>Copyright &copy &#8226; 2022 &#8226;  <span> All Right Reserved Katherine Bonilla</span></p> 
-      </footer>
 
+    <footer>
+
+        <div class="social-links">
+            <i class="fab fa-linkedin fa-3x" href="#"></i>
+            <i class="fab fa-github fa-3x" href="#"></i>
+
+        </div>
+        <p>Copyright &copy &#8226; 2022 &#8226; <span> All Right Reserved Katherine Bonilla</span></p>
+    </footer>
+    <script src="./main.js"></script>
 </body>
 
 
