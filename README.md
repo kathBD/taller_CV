@@ -1,3 +1,3 @@
-# html_css
+# html_css_Js
 
-ADD styles to the html layout
+ADD styles and JavaScript
