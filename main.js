@@ -25,10 +25,10 @@ for (let i = 0; i < elementsA.length; i++) {
     elementsA[i].addEventListener("click", function() {
         this.classList.toggle("active");
         let box = this.nextElementSibling;
-        if (box.style.display == "none"){
-            box.style.display = "block";
+        if (box.style.display == "block"){
+            box.style.display = "none";
         }else{
-            box.style.display ="none";
+            box.style.display ="block";
         }
     });
 }

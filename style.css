@@ -16,17 +16,18 @@ html {
 body {
     background-color: #f3f5f7;
     height: auto;
+
     
 }
 
 main {
-    padding: 50px 5%;
+    padding: 50px 7%;
     background: linear-gradient(90deg,
             rgb(231, 231, 231) 0%,
             rgb(20, 131, 165) 35%,
             rgba(0, 212, 255, 1) 100%);
     display: flex;
-    margin: 10px auto;
+    margin: 0px auto;
     width: 80%;
    
 
@@ -158,6 +159,7 @@ li a:hover {
     margin-left: 10px;
     padding: 20px;
     width: 700px;
+    height: 100vh;
      
     
 }
